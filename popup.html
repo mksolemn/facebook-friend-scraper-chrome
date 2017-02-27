@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Friend trade</title>
+    <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+    <script src="js/firebase-local.js"></script>
+    <script src="js/vendor/jquery-3.1.1.min.js"></script>
+    <script src="js/popup.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body class="popup" style="min-width:300px">
+    <div class="control-wrap">
+        <button class="control-btn login" id="login">
+      <span>Login As: </span>
+      <span class="right-info select">
+      <select>
+        <option value="margarita_rossi">Margarita Rossi</option>
+        </select>
+</span>
+      </button>
+        <button class="control-btn accept" id="runAcceptor">
+      <span>Accept requests</span>
+      <span class="right-info">50</span>
+      </button>
+        <!--
+        <button class="control-btn getlist" id="getFriendList">
+      <span>Get Friend List</span>
+      <span class="right-info">50</span>
+      </button>
+      -->
+    </div>
+    <div class="display-field">
+        <div class="all-friends">
+
+        </div>
+    </div>
+    <div class="user-info">
+        <h5>FB api info</h5>
+        <p>id: <span class="user-id"></span></p>
+    </div>
+    <div class="plugin-title">&copy; THE FRIEND GAME</div>
+</body>
+
+</html>

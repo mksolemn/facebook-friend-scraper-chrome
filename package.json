@@ -1,0 +1,28 @@
+{
+    "name": "gulp_bones",
+    "version": "1.0.0",
+    "description": "Essential gulp setup for most case projects.",
+    "main": "app.js",
+    "scripts": {
+        "test": "alert('fire!')"
+    },
+    "keywords": [
+        "gulp",
+        "bones",
+        "skeleton",
+        "essential"
+    ],
+    "author": "Mindaugas K",
+    "license": "MIT",
+    "dependencies": {
+        "gulp": "*",
+        "gulp-ruby-sass": "*",
+        "gulp-autoprefixer": "*",
+        "gulp-plumber": "*",
+        "gulp-uglify": "*"
+    },
+    "devDependencies": {
+        "gulp-rename": "*",
+        "gulp-uglify": "*"
+    }
+}
